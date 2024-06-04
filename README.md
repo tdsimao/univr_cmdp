@@ -29,7 +29,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. test the 
+3. test the installation
     ```bash
     python test.py 
     ```
@@ -48,9 +48,14 @@ pip install -r requirements.txt
 
 ## Exercises
 
-In the file `lp.py`
+
+The file `lp.py` contains the code necessary to solve a MDP using a linear programming approach.
+
+The goal of the exercise is to adapt it to solve a CMDP and extract a stochastic policy from the solution.
+
 1. implement the function `set_policy` to extract the policy in a state at a given time step.
 2. implement the missing code to compute the expected accumulated cost in the function `instantiate_lp` 
+
 
 # run the main experiments
 
