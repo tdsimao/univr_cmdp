@@ -1,0 +1,5 @@
+matplotlib
+pandas
+tqdm
+gym-factored @ git+https://github.com/tdsimao/gym-factored@master
+cvxpy
