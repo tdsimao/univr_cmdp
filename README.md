@@ -48,13 +48,14 @@ pip install -r requirements.txt
 
 ## Exercises
 
-
 The file `lp.py` contains the code necessary to solve a MDP using a linear programming approach.
+The goal is to adapt it to solve a CMDP and extract a stochastic policy from the solution.
 
-The goal of the exercise is to adapt it to solve a CMDP and extract a stochastic policy from the solution.
+1. Implement the function `set_policy` to extract the policy in a state at a given time step.
+2. Implement the missing code to compute the expected accumulated cost in the function `instantiate_lp` 
+3. Compare the occupancy measure of the cliff walk environment given three cost bounds (0, 2, and ∞). Suggestion: use a heatmap to vizualize the results.
+4. Evaluate the impact of the cost bound on the expected return. Suggestion: make a line plot with the cost bound in the x-axis and the expected return in the y-axis.
 
-1. implement the function `set_policy` to extract the policy in a state at a given time step.
-2. implement the missing code to compute the expected accumulated cost in the function `instantiate_lp` 
 
 
 # run the main experiments
